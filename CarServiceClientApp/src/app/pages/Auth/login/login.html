@@ -1,0 +1,296 @@
+<div class="min-h-screen bg-white lg:grid lg:grid-cols-2">
+
+  <!-- Branding and Introduction -->
+  <div class="relative hidden overflow-hidden bg-gradient-to-br from-teal-800 via-teal-700 to-slate-900 lg:flex lg:flex-col lg:justify-between lg:p-12 xl:p-16">
+    <div class="absolute -right-32 -top-32 h-96 w-96 rounded-full border border-white/10"></div>
+    <div class="absolute -right-16 -top-16 h-64 w-64 rounded-full border border-white/10"></div>
+    <div class="absolute -bottom-40 -left-20 h-96 w-96 rounded-full bg-teal-400/10 blur-3xl"></div>
+
+    <a href="/" class="relative z-10 flex items-center gap-3">
+      <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-white shadow-lg shadow-black/10">
+        <i class="fa-solid fa-car-side text-xl text-teal-700"></i>
+      </div>
+      <div>
+        <span class="block text-base font-bold tracking-tight text-white">
+          Car Service Manager
+        </span>
+        <span class="mt-0.5 block text-xs font-medium tracking-wide text-teal-100">
+          Your vehicle, your records.
+        </span>
+      </div>
+    </a>
+
+    <div class="relative z-10 max-w-xl">
+      <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1.5 text-xs font-semibold text-teal-50">
+        <i class="fa-solid fa-car"></i>
+        YOUR PERSONAL VEHICLE COMPANION
+      </div>
+
+      <h1 class="text-4xl font-bold leading-tight tracking-tight text-white xl:text-5xl">
+        Your car deserves
+        <span class="mt-2 block text-teal-200">the right care.</span>
+      </h1>
+
+      <p class="mt-6 max-w-lg text-base leading-7 text-teal-50/90">
+        Keep your vehicle information, service history, and upcoming
+        maintenance organised in one convenient place. Spend less time
+        keeping track of paperwork and more time enjoying the road.
+      </p>
+
+      <div class="mt-10 space-y-5">
+        <div class="flex items-center gap-4">
+          <div class="flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-white/10 text-teal-100">
+            <i class="fa-solid fa-car-side"></i>
+          </div>
+          <div>
+            <p class="text-sm font-semibold text-white">Manage your vehicles</p>
+            <p class="mt-1 text-sm text-teal-100/80">
+              Keep your vehicle details organised and accessible.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-4">
+          <div class="flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-white/10 text-teal-100">
+            <i class="fa-solid fa-clipboard-list"></i>
+          </div>
+          <div>
+            <p class="text-sm font-semibold text-white">Keep your service history</p>
+            <p class="mt-1 text-sm text-teal-100/80">
+              Record services and repairs for future reference.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-4">
+          <div class="flex h-11 w-11 items-center justify-center rounded-xl border border-white/10 bg-white/10 text-teal-100">
+            <i class="fa-solid fa-calendar-check"></i>
+          </div>
+          <div>
+            <p class="text-sm font-semibold text-white">Plan ahead</p>
+            <p class="mt-1 text-sm text-teal-100/80">
+              Keep track of upcoming maintenance and service intervals.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-10 flex flex-wrap gap-3">
+        <span class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-2 text-xs text-teal-50">
+          <i class="fa-solid fa-check-circle text-teal-200"></i>
+          Simple to use
+        </span>
+        <span class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-2 text-xs text-teal-50">
+          <i class="fa-solid fa-check-circle text-teal-200"></i>
+          Your own vehicle records
+        </span>
+      </div>
+    </div>
+
+    <div class="relative z-10 flex items-center justify-between border-t border-white/15 pt-6">
+      <p class="text-xs text-teal-100/70">
+        © {{ currentYear }} Car Service Manager
+      </p>
+      <a href="/" class="text-xs font-medium text-teal-100 transition hover:text-white">
+        Back to home
+      </a>
+    </div>
+  </div>
+
+  <!-- Login Form -->
+  <div class="flex min-h-screen flex-col justify-center px-5 py-10 sm:px-10 lg:px-12 xl:px-20">
+    <div class="mx-auto w-full max-w-md">
+
+      <!-- Mobile Branding -->
+      <div class="mb-10 lg:hidden">
+        <a href="/" class="flex items-center gap-3">
+          <div class="flex h-11 w-11 items-center justify-center rounded-xl bg-teal-600 shadow-lg shadow-teal-600/20">
+            <i class="fa-solid fa-car-side text-lg text-white"></i>
+          </div>
+          <div>
+            <h1 class="text-base font-bold tracking-tight text-slate-900">
+              Car Service Manager
+            </h1>
+            <p class="text-xs font-medium tracking-wide text-slate-500">
+              Your vehicle, your records.
+            </p>
+          </div>
+        </a>
+      </div>
+
+      <div class="mb-8">
+        <a href="/" class="mb-6 inline-flex items-center gap-2 text-sm font-medium text-slate-500 transition hover:text-teal-700">
+          <i class="fa-solid fa-arrow-left text-xs"></i>
+          Back to home
+        </a>
+
+        <div class="mb-5 flex h-12 w-12 items-center justify-center rounded-2xl bg-teal-50 text-teal-700">
+          <i class="fa-solid fa-user text-xl"></i>
+        </div>
+
+        <p class="text-sm font-semibold text-teal-700">
+          YOUR ACCOUNT
+        </p>
+
+        <h2 class="mt-2 text-3xl font-bold tracking-tight text-slate-900">
+          Welcome back
+        </h2>
+
+        <p class="mt-3 text-sm leading-6 text-slate-500">
+          Sign in to manage your vehicles, review your service history,
+          and keep your maintenance organised.
+        </p>
+      </div>
+
+      @if (errorMessage) {
+        <div
+          role="alert"
+          class="mb-6 flex items-start gap-3 rounded-xl border border-red-200 bg-red-50 p-4"
+        >
+          <i class="fa-solid fa-circle-exclamation mt-0.5 text-red-500"></i>
+          <p class="text-sm leading-5 text-red-700">{{ errorMessage }}</p>
+        </div>
+      }
+
+      <form (ngSubmit)="onSubmit()" #loginForm="ngForm" class="space-y-5">
+
+        <!-- Email -->
+        <div>
+          <label for="EmailAddress" class="mb-2 block text-sm font-semibold text-slate-700">
+            Email address
+          </label>
+
+          <div class="relative">
+            <i class="fa-regular fa-envelope pointer-events-none absolute left-0 top-1/2 -translate-y-1/2 pl-4 text-slate-400"></i>
+
+            <input
+              type="email"
+              id="EmailAddress"
+              name="email"
+              [(ngModel)]="email"
+              placeholder="you@example.com"
+              autocomplete="username"
+              required
+              email
+              #emailInput="ngModel"
+              class="block w-full rounded-xl border border-slate-300 bg-white py-3.5 pl-11 pr-4 text-sm text-slate-900 outline-none transition placeholder:text-slate-400 hover:border-slate-400 focus:border-teal-500 focus:ring-4 focus:ring-teal-500/10"
+            />
+          </div>
+
+          @if (emailInput.invalid && emailInput.touched) {
+            <span class="mt-1 block text-xs text-red-600">
+              Please enter a valid email address.
+            </span>
+          }
+        </div>
+
+        <!-- Password -->
+        <div>
+          <div class="mb-2 flex items-center justify-between">
+            <label for="Password" class="block text-sm font-semibold text-slate-700">
+              Password
+            </label>
+
+            <a
+              href="/forgot-password"
+              class="text-xs font-semibold text-teal-700 transition hover:text-teal-800 hover:underline"
+            >
+              Forgot password?
+            </a>
+          </div>
+
+          <div class="relative">
+            <i class="fa-solid fa-lock pointer-events-none absolute left-0 top-1/2 -translate-y-1/2 pl-4 text-slate-400"></i>
+
+            <input
+              [type]="showPassword ? 'text' : 'password'"
+              id="Password"
+              name="password"
+              [(ngModel)]="password"
+              placeholder="Enter your password"
+              autocomplete="current-password"
+              required
+              #passwordInput="ngModel"
+              class="block w-full rounded-xl border border-slate-300 bg-white py-3.5 pl-11 pr-12 text-sm text-slate-900 outline-none transition placeholder:text-slate-400 hover:border-slate-400 focus:border-teal-500 focus:ring-4 focus:ring-teal-500/10"
+            />
+
+            <button
+              type="button"
+              (click)="togglePasswordVisibility()"
+              [attr.aria-label]="showPassword ? 'Hide password' : 'Show password'"
+              [attr.aria-pressed]="showPassword"
+              class="absolute inset-y-0 right-0 flex items-center px-4 text-slate-400 transition hover:text-teal-600"
+            >
+              <i
+                [class.fa-eye]="!showPassword"
+                [class.fa-eye-slash]="showPassword"
+                class="fa-regular"
+              ></i>
+            </button>
+          </div>
+
+          @if (passwordInput.invalid && passwordInput.touched) {
+            <span class="mt-1 block text-xs text-red-600">
+              Password is required.
+            </span>
+          }
+        </div>
+
+        <!-- Remember Me -->
+        <div class="flex items-center">
+          <input
+            type="checkbox"
+            id="remember"
+            name="rememberMe"
+            [(ngModel)]="rememberMe"
+            class="h-4 w-4 rounded border-slate-300 text-teal-600 focus:ring-teal-500"
+          />
+
+          <label for="remember" class="ml-2.5 text-sm text-slate-600">
+            Remember me
+          </label>
+        </div>
+
+        <!-- Submit -->
+        <button
+          type="submit"
+          [disabled]="loginForm.invalid"
+          class="flex w-full items-center justify-center gap-2 rounded-xl bg-teal-600 px-4 py-3.5 text-sm font-semibold text-white shadow-lg shadow-teal-600/20 transition hover:bg-teal-700 hover:shadow-teal-600/30 focus:outline-none focus:ring-4 focus:ring-teal-500/20 active:scale-[0.99] disabled:cursor-not-allowed disabled:opacity-60"
+        >
+          Sign in to your account
+          <i class="fa-solid fa-arrow-right text-xs"></i>
+        </button>
+
+      </form>
+
+      <!-- Registration -->
+      <div class="mt-8 text-center">
+        <p class="text-sm text-slate-600">
+          Don't have an account?
+          <a
+            href="/register"
+            class="font-semibold text-teal-700 transition hover:text-teal-800 hover:underline"
+          >
+            Create an account
+          </a>
+        </p>
+      </div>
+
+      <!-- Privacy Note -->
+      <div class="mt-8 border-t border-slate-100 pt-6">
+        <div class="flex items-start gap-3">
+          <i class="fa-solid fa-shield-halved mt-0.5 text-teal-600"></i>
+          <p class="text-xs leading-5 text-slate-500">
+            Your account gives you access to your vehicle information and
+            maintenance records. Always keep your login details secure.
+          </p>
+        </div>
+      </div>
+
+      <p class="mt-8 text-center text-xs text-slate-400 lg:hidden">
+        © {{ currentYear }} Car Service Manager. All rights reserved.
+      </p>
+
+    </div>
+  </div>
+</div>
